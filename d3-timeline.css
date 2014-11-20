@@ -1,0 +1,64 @@
+.chart {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+
+.axis path,.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+.bar {
+	fill: #33b5e5;
+}
+
+.bar-failed {
+	fill: #CC0000;
+}
+
+.bar-running {
+	fill: #669900;
+}
+
+.bar-succeeded {
+	fill: #33b5e5;
+}
+
+.bar-killed {
+	fill: #ffbb33;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.tooltip {
+	opacity: 0.8;
+	font-size: 0.8em;
+}
+
+iframe {
+	display: flex;
+}
+
+.detail {
+	display: block;
+}
+
+.change {
+	font-weight: bolder;
+	color: red;
+}
+
+.grid .tick {
+	stroke: lightgrey;
+	opacity: 0.7;
+}
